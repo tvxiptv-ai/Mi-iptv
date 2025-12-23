@@ -1,0 +1,43 @@
+#EXTM3U
+
+#== SECCIÓN CATAMARCA 🏔️ ==
+#EXTINF:-1 tvg-id="CatamarcaTV" tvg-logo="https://catamarcaradioytv.gob.ar/wp-content/uploads/2021/05/logo-tv-300x122.png" group-title="ARGENTINA: CATAMARCA", Catamarca Radio y TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://tu-enlace-de-catamarca.m3u8
+
+#== SECCIÓN YOUTUBE (CON PUENTE) 📺 ==
+#EXTINF:-1 tvg-id="TN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/42/Todo_Noticias_2016.png" group-title="NOTICIAS", TN en Vivo (YT)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://tu-servicio-puente.com/live/gT_SclV9_iY.m3u8
+
+#== SECCIÓN VIDEOS PROPIOS 📂 ==
+#EXTINF:-1 tvg-logo="https://tu-logo-personal.png" group-title="MIS VIDEOS", Mi Video de Archive
+https://archive.org/download/tu-carpeta/tu-video.mp4
+#EXTM3U
+
+#EXTINF:-1 tvg-id="TyCSports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d2/TyC_Sports_logo_2020.svg" groupm3u8
+
+
+le="ARGENTINA: DEPORTES", TyC Sports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) ...
+http://servidor-ejemplo.com/tyc_sports.m3u8
+
+#EXTINF:-1 tvg-id="Telefe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f3/Telefe_logo.svg" group-title="ARGENTINA: AIRE", Telefe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) ...
+http://servidor-ejemplo.com/telefe.m3u8
+#EXTINF:-1 tvg-id="CanalEncuentro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Canal_Encuentro.svg/1200px-Canal_Encuentro.svg.png" group-title="CULTURA Y CIENCIA", Canal Encuentro
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 ...
+http://servidor-cultura.com/encuentro.m3u8
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://link-al-logo-arg.png" group-title="TV ARGENTINA", Canal 7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0...
+http://servidor-arg.com/canal7.m3u8
+
+#EXTINF:-1 tvg-logo="https://link-al-logo-mex.png" group-title="TV MÉXICO", Las Estrellas
+#EXTVLCOPT:http-user-agent=Mozilla/5.0...
+http://servidor-mex.com/lasestrellas.m3u8
+
+#EXTINF:-1 tvg-logo="https://link-al-logo-tw.png" group-title="TV TAIWÁN" tvg-language="Chinese", PTS World
+#EXTVLCOPT:http-user-agent=Mozilla/5.0...
+http://servidor-tw.com/pts_world.m3u8
